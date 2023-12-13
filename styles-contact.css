@@ -70,6 +70,9 @@ html, body {
 
 }
 
+
+
+
 .center {
     width: 40%;
 	min-width: 300px; /* this is for responsiveness */
@@ -77,7 +80,7 @@ html, body {
     margin: 100px auto;
  	background: rgba(90, 140, 68, 0.55); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px double white;
+	border: 3px double white;
 
 	
 }
@@ -124,11 +127,12 @@ h2 {
 p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
 	font-family: "mixta-didone-alt", serif;
-	font-weight: 400;
+	font-weight: 475;
 	font-style: normal;
-	font-size: 1.2em;
+	font-size: 1.8em;
     line-height: 1.6;
     color: #fff;
+	margin-bottom: 10px;
 }
 nav{
 	offset-position: fixed;
@@ -140,7 +144,7 @@ nav{
 	border: double white;
 	border-width: 3px 0;
 	text-align: center;
-	margin-top: 2em;
+	margin-top: .30em;
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -167,5 +171,31 @@ a{
 a:hover{
 	color: black;
 	background: lightblue;
+	
+}
+
+
+
+h3 { /* extra information and stuff to add to site*/
+	font-family: "mixta-didone-alt", serif;
+	font-weight: 520;
+	font-style: normal;
+	font-size: 1.3em;
+	line-height: 1.4;
+	color: #fff;
+	padding: 10px 0px;
+	margin: 8px auto 8px auto;
+
+}
+
+p {
+
+	font-family: "mixta-didone-alt", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: .90em;
+    line-height: 1.5;
+	margin: 5px;
+    color: #fff;
 	
 }
